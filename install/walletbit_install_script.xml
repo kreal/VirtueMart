@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+
+<install version="1.5" type="plugin" group="vmpayment">
+
+	<name>WalletBit VirtueMart Integration</name>
+
+	<creationDate>August 1st 2012</creationDate>
+	<author>WalletBit</author>
+	<authorUrl>http://walletbit.com</authorUrl>
+	<copyright>Copyright (C) 2012</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version status="MINOR">1.0.0</version>
+
+	<files>
+		<filename plugin="walletbit">walletbit.xml</filename>
+		<filename plugin="walletbit">walletbit.php</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.plg_vmpayment_walletbit.ini</language>
+		<language tag="en-GB">en-GB.plg_vmpayment_walletbit.sys.ini</language>
+	</languages>
+</install>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<install version="1.5" type="plugin" group="vmpayment" >
+    <name>VMPAYMENT_WALLETBIT</name>
+    <creationDate>July 27 2012</creationDate>
+    <author>WalletBit</author>
+    <authorUrl>http://www.walletbit.com.au</authorUrl>
+    <copyright>Copyright</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>1.0.0</version>
+    <description>WalletBit payment plugin</description>
+    <languages>
+	<language tag="en-GB">en-GB.plg_vmpayment_walletbit.ini</language>
+    </languages>
+    <files>
+	<filename plugin="walletbit">walletbit.php</filename>
+    </files>
+	<params addpath="/plugins/vmpayment/walletbit" />
+    <params addpath="/administrator/components/com_virtuemart/elements">
+
+	<param name="merchant_email" type="text"  label="Merchant Email" description="Merchant Email" />
+	<param name="merchant_token" type="text"  label="Merchant Token" description="Merchant Token" />
+	<param name="merchant_securityword" type="text"  label="Merchant Security Word" description="Merchant Security Word" />
+    </params>
+</install>
